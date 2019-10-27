@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+</head>
+<body>
+
+
+<div id = "wrapper">
+  <h1 id= "title">Avengers Trivia</h1>
+  <div id = "subwrapper">
+      <button id= "start">Start</button>
+  </div>
+</div>
+<!-- <div class="jumbotron" id="start-page">
+        <h1 class="display-4">Trivia Game</h1>
+        
+        <hr class="my-4">
+        <p>Click button to begin game</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button" 
+        id= "start">Start</a>
+      </div>
+        
+    
+<div id="questions-page" class="hidden">
+        <div class="card-header">  
+          
+        </div>
+        <div class="card-body">
+          <h5 class="card-title" id="timer-display">Time remaining: 0:00</h5>
+          <p class="card-text" id = "question1">What Nation is Black Panther from?</p>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Uganda">
+            <label class="form-check-label" for="inlineRadio1">Uganda</label>
+          </div>
+          <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Wakanda">
+                <label class="form-check-label" for="inlineRadio2">Wakanda</label>
+              </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="Kenya">
+            <label class="form-check-label" for="inlineRadio3">Kenya</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="South Africa" >
+            <label class="form-check-label" for="inlineRadio4">South Africa</label>
+          </div>
+          
+        </div>
+        <div class="card-footer text-muted">
+         
+        </div>
+        <div class="card-body">
+                <h5 class="card-title" id="timer-display"></h5>
+                <p class="card-text">What is the name of the blue glowing square that Loki uses as a weapon?</p>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="The infinity Gem">
+                  <label class="form-check-label" for="inlineRadio1">The infinity Gem</label>
+                </div>
+                <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="The Soulstone">
+                      <label class="form-check-label" for="inlineRadio2">The Soulstone</label>
+                    </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="The Tesseract">
+                  <label class="form-check-label" for="inlineRadio3">The Tesseract</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="The Timestone" >
+                  <label class="form-check-label" for="inlineRadio4">The Timestone</label>
+                </div>
+                
+              </div>
+              <div class="card-footer text-muted">
+                
+              </div>
+              <div class="card-body">
+                    <h5 class="card-title" id="timer-display"></h5>
+                    <p class="card-text">What is Thor's Hammer called?</p>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Mjolnir">
+                      <label class="form-check-label" for="inlineRadio1">Mjolnir</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="The Hammer">
+                          <label class="form-check-label" for="inlineRadio2">The Hammer</label>
+                        </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="Lightning Maker">
+                      <label class="form-check-label" for="inlineRadio3">Lightning Maker</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="The Storm Maker" >
+                      <label class="form-check-label" for="inlineRadio4">The Storm Maker</label>
+                    </div>
+                    
+                  </div>
+                  <div class="card-footer text-muted">
+                    
+                  </div>
+                  <div class="card-body">
+                        <h5 class="card-title" id="timer-display"></h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                          <label class="form-check-label" for="inlineRadio1">Question 1</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1">
+                              <label class="form-check-label" for="inlineRadio2">Question 2</label>
+                            </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option2">
+                          <label class="form-check-label" for="inlineRadio3">Question 3</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option3" >
+                          <label class="form-check-label" for="inlineRadio4">Question 4</label>
+                        </div>
+                        
+                      </div>
+                      <div class="card-footer text-muted">
+                        
+                      </div>
+                      <div class="card-body">
+                            <h5 class="card-title" id="timer-display"></h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                              <label class="form-check-label" for="inlineRadio1">Question 1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1">
+                                  <label class="form-check-label" for="inlineRadio2">Question 2</label>
+                                </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option2">
+                              <label class="form-check-label" for="inlineRadio3">Question 3</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option3" >
+                              <label class="form-check-label" for="inlineRadio4">Question 4</label>
+                            </div>
+                            
+                          </div>
+                          <div class="card-footer text-muted">
+                            
+                          </div>
+                          <div class="card-body">
+                                <h5 class="card-title" id="timer-display"></h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                  <label class="form-check-label" for="inlineRadio1">Question 1</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1">
+                                      <label class="form-check-label" for="inlineRadio2">Question 2</label>
+                                    </div>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option2">
+                                  <label class="form-check-label" for="inlineRadio3">Question 3</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option3" >
+                                  <label class="form-check-label" for="inlineRadio4">Question 4</label>
+                                </div> 
+                              </div>
+                              <div class="card-footer text-muted">
+                              </div>
+      </div> -->
+
+    
+
+
+
+
+
+
+<!-- jquery link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+<!-- logic link -->
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
