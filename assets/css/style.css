@@ -1,15 +1,28 @@
 
+.body{
+    margin: auto;
+    width: 960px;
+    background-image: url("background.jpeg")
+}
 
-
-
-
-
-
-/* .body{
+#subwrapper{
     margin: auto;
     width: 960px;
 }
-.jumbotron {
+.jumbotron{
+    margin: auto;
+    width: 960px;
+   
+}
+#title{
+    text-align: center;
+
+}
+.btn {
+    align-self: center;
+}
+
+/* .jumbotron {
     width: 960px;
     align-content: center;
     margin: auto;
